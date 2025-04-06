@@ -93,11 +93,11 @@ Os limites para o modelo foram definidos como:
 
 #### Resultado encontrado no ML Automatizado
 
-![alt](https://github.com/David8Fernando/Treinando-Seu-Primeiro-Modelo-de-Machine-Learning-para-Prever-Vendas/blob/main/img/resultado designer.png) 
+![alt](https://github.com/David8Fernando/Treinando-Seu-Primeiro-Modelo-de-Machine-Learning-para-Prever-Vendas/blob/main/img/resultado_designer.png) 
 
 Também foi treinado o modelo pelo Designer
 
-![alt](https://github.com/David8Fernando/Treinando-Seu-Primeiro-Modelo-de-Machine-Learning-para-Prever-Vendas/blob/main/img/resultado designer 1.png) 
+![alt](https://github.com/David8Fernando/Treinando-Seu-Primeiro-Modelo-de-Machine-Learning-para-Prever-Vendas/blob/main/img/resultado_designer_1.png) 
 
 
 
