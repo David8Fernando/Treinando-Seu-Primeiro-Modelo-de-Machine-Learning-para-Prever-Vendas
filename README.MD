@@ -28,7 +28,22 @@ Para esse projeto foi necessário a preparação do ambiente Azure Machine Learn
 ![alt](https://github.com/David8Fernando/Treinando-Seu-Primeiro-Modelo-de-Machine-Learning-para-Prever-Vendas/blob/main/img/img4_criar_recurso.png) 
 
 ![alt](https://github.com/David8Fernando/Treinando-Seu-Primeiro-Modelo-de-Machine-Learning-para-Prever-Vendas/blob/main/img/img4_recurso_AzureML.png) 
-### 3. 
-3. 
+
+Aguarde uns minutos até a finalização da criação do recurso
+
+### 3. Inicie o Azure Machine Learning
+Selecione o Workspace criado
+![alt](https://github.com/David8Fernando/Treinando-Seu-Primeiro-Modelo-de-Machine-Learning-para-Prever-Vendas/blob/main/img/img5_acessoAzureML.png) 
+
+Clique em **Launch Studio**
+
+![alt](https://github.com/David8Fernando/Treinando-Seu-Primeiro-Modelo-de-Machine-Learning-para-Prever-Vendas/blob/main/img/img5_iniciarAzureML.png) 
+
+
+Você também pode acessar pelo endereço https://ml.azure.com
+
+
+
+
 
 
