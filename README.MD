@@ -1,7 +1,14 @@
 # Treinando Seu Primeiro Modelo de Machine Learning para Prever Vendas
 
-## Descrição
-Este projeto tem como objetivo treinar um modelo de Machine Learning para prever vendas com base em dados históricos de uma sorveteria.
+## Objetivo
+
+O objetivo deste projeto é desenvolver um modelo de regressão preditiva que permita: 
+
+✅ Treinar um modelo de Machine Learning para prever as vendas de sorvete com base na temperatura do dia.
+✅ Registrar e gerenciar o modelo usando o MLflow.
+✅ Implementar o modelo para previsões em tempo real em um ambiente de cloud computing.
+✅ Criar um pipeline estruturado para treinar e testar o modelo, garantindo reprodutibilidade.
+
 
 ## Base de Dados
 A base de dados foi gerada com auxílio do ChatGPT para fins de aprendizado
@@ -35,7 +42,7 @@ Aguarde uns minutos até a finalização da criação do recurso
 Selecione o Workspace criado
 ![alt](https://github.com/David8Fernando/Treinando-Seu-Primeiro-Modelo-de-Machine-Learning-para-Prever-Vendas/blob/main/img/img5_acessoAzureML.png) 
 
-Clique em **Launch Studio**
+Clique em **Launch studio**
 
 ![alt](https://github.com/David8Fernando/Treinando-Seu-Primeiro-Modelo-de-Machine-Learning-para-Prever-Vendas/blob/main/img/img5_iniciarAzureML.png) 
 
@@ -43,7 +50,50 @@ Clique em **Launch Studio**
 Você também pode acessar pelo endereço https://ml.azure.com
 
 
+## Utilizando o ambiente no Azure Machine Learning
 
+
+No Azure ML vá em computação e crie a instância de computação e cluster de computação
+
+a instância de computação vai ser servir para fazer testes no jupyter notebook
+
+o cluster de computação será utilizado para treinamento do modelo
+
+### Criando Dataset
+
+crie o dataset usando um arquivo local
+![alt](https://github.com/David8Fernando/Treinando-Seu-Primeiro-Modelo-de-Machine-Learning-para-Prever-Vendas/blob/main/img/img6dataset.png) 
+
+remova a coluna de data de venda
+![alt](https://github.com/David8Fernando/Treinando-Seu-Primeiro-Modelo-de-Machine-Learning-para-Prever-Vendas/blob/main/img/img6removedata.png) 
+
+dataset criado
+![alt](https://github.com/David8Fernando/Treinando-Seu-Primeiro-Modelo-de-Machine-Learning-para-Prever-Vendas/blob/main/img/img6rdatasetcriado.png) 
+
+
+### ML Automatizado
+Crie um modelo de Machine Learning Automatizado e selecione o tipo de modelo: regressão e selecione os dados
+![alt](https://github.com/David8Fernando/Treinando-Seu-Primeiro-Modelo-de-Machine-Learning-para-Prever-Vendas/blob/main/img/img_tiposdemodeloML.png) 
+
+O Target Column ou Coluna de destino (o que quero que seja previsto) seleciono a coluna de quantidade vendidas
+
+
+Bloqueie os modelos que não serão utilizados
+
+![alt](https://github.com/David8Fernando/Treinando-Seu-Primeiro-Modelo-de-Machine-Learning-para-Prever-Vendas/blob/main/img/img6configadicional.png) 
+
+![alt](https://github.com/David8Fernando/Treinando-Seu-Primeiro-Modelo-de-Machine-Learning-para-Prever-Vendas/blob/main/img/img6config_remove.png) 
+
+Os limites para o modelo foram definidos como:
+
+**Max nodes:** 2
+**Experiment timeout (minutes):** 15
+**Iteration timeout (minutes):*** 15
+**Habilite encerramento antecipado** 
+
+Resultado encontrado no modelo
+
+![alt](https://github.com/David8Fernando/Treinando-Seu-Primeiro-Modelo-de-Machine-Learning-para-Prever-Vendas/blob/main/img/resultado designer.png) 
 
 
 
