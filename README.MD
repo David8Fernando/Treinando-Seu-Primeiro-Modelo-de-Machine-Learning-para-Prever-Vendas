@@ -5,9 +5,13 @@
 O objetivo deste projeto é desenvolver um modelo de regressão preditiva que permita: 
 
 ✅ Treinar um modelo de Machine Learning para prever as vendas de sorvete com base na temperatura do dia.
+
 ✅ Registrar e gerenciar o modelo usando o MLflow.
-✅ Implementar o modelo para previsões em tempo real em um ambiente de cloud computing.
+
+✅ Implementar o modelo para previsões em tempo real em um ambiente de cloud computing
+.
 ✅ Criar um pipeline estruturado para treinar e testar o modelo, garantindo reprodutibilidade.
+
 
 
 ## Base de Dados
@@ -87,8 +91,11 @@ Bloqueie os modelos que não serão utilizados
 Os limites para o modelo foram definidos como:
 
 **Max nodes:** 2
+
 **Experiment timeout (minutes):** 15
+
 **Iteration timeout (minutes):*** 15
+
 **Habilite encerramento antecipado** 
 
 #### Resultado encontrado no ML Automatizado
@@ -97,7 +104,7 @@ Os limites para o modelo foram definidos como:
 
 Também foi treinado o modelo pelo Designer
 
-![alt](https://github.com/David8Fernando/Treinando-Seu-Primeiro-Modelo-de-Machine-Learning-para-Prever-Vendas/blob/main/img/resultado_designer_1.png) 
+![alt](https://github.com/David8Fernando/Treinando-Seu-Primeiro-Modelo-de-Machine-Learning-para-Prever-Vendas/blob/main/img/resultado_designer1.png) 
 
 
 
