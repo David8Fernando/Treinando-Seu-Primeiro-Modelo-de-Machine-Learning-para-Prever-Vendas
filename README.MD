@@ -91,9 +91,13 @@ Os limites para o modelo foram definidos como:
 **Iteration timeout (minutes):*** 15
 **Habilite encerramento antecipado** 
 
-Resultado encontrado no modelo
+#### Resultado encontrado no ML Automatizado
 
 ![alt](https://github.com/David8Fernando/Treinando-Seu-Primeiro-Modelo-de-Machine-Learning-para-Prever-Vendas/blob/main/img/resultado designer.png) 
+
+Também foi treinado o modelo pelo Designer
+
+![alt](https://github.com/David8Fernando/Treinando-Seu-Primeiro-Modelo-de-Machine-Learning-para-Prever-Vendas/blob/main/img/resultado designer 1.png) 
 
 
 
